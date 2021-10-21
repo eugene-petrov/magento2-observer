@@ -33,7 +33,8 @@ class RedirectToContact implements ObserverInterface
     }
 
     /**
-     * @inheridoc
+     * @param Observer $observer
+     * @return void
      */
     public function execute(Observer $observer)
     {
